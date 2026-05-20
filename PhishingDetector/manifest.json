@@ -1,0 +1,21 @@
+{
+  "manifest_version":3,
+
+  "name":"Cyber Shield",
+
+  "version":"3.0",
+
+  "permissions":[
+    "activeTab",
+    "tabs",
+    "storage"
+  ],
+
+  "host_permissions":[
+    "https://www.virustotal.com/*"
+  ],
+
+  "action":{
+    "default_popup":"popup.html"
+  }
+}
